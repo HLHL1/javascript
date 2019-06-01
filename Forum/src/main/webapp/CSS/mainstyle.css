@@ -1,0 +1,168 @@
+body {
+    background-color: #2B2B2B;
+}
+a {
+    text-decoration: none;
+}
+#container {
+    width: 100%;
+}
+#header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header .title {
+    color: lightgray;
+    margin: 20px 50px;
+    text-shadow: 0px 0px 10px;
+}
+#page {
+    width: 100%;
+}
+#panel {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px 20px;
+}
+.post , .user {
+    margin-bottom: 5px;
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    flex-direction: column;
+}
+.floor {
+    background-color: gray;
+    width: 80%;
+    margin-bottom: 5px;
+    position: relative;
+    left: 20px;
+}
+.post > .up , .user > .up , .floor > .up {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+}
+.post > .down , .user > .down {
+    margin: 0px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post .titlePreview {
+    color: lightgray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.post .creator {
+    color: darkgray;
+    position: relative;
+    top: 10px;
+}
+.floor .creator {
+    color: darkgray;
+}
+.postPreview {
+    color: lightgray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#user {
+    color: lightgray;
+    margin: 20px 50px;
+    position: relative;
+    top: 20px;
+}
+.userId , .userName , .post .title , .floor .content , .post .content {
+    color: lightgray;
+}
+.repeat {
+    width: 150px;
+}
+.btn {
+    background-color: rgba(41,59,83,0.55);
+    color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+.fixPanel {
+    position: fixed;
+    right: 20px;
+    width: 15%;
+}
+.issue {
+    color: lightgray;
+    background-color: rgba(41,59,83,0.55);
+    text-align: center;
+    padding: 20px;
+}
+.biaoti {
+    position: fixed;
+    top: 30%;
+    left: 23%;
+    width: 35%;
+    height: 45px;
+    align-items: center;
+    /*font-size: 10px;*/
+}
+.neirong {
+    position: fixed;
+    top: 40%;
+    left: 23%;
+    width: 50%;
+    height: 250px;
+    align-items: center;
+    /*font-size: 10px;*/
+}
+.chuangjianzhe {
+    position: fixed;
+    top: 30%;
+    left: 63%;
+    width: 10%;
+    height: 45px;
+    align-items: center;
+    /*font-size: 10px;*/
+}
+.fabu {
+    position: fixed;
+    top: 75%;
+    left: 68%;
+    height: 5%;
+    width: 5%;
+
+}
+.huifuchuangjianzhe {
+    position: fixed;
+    top: 65%;
+    left: 23%;
+    width: 10%;
+    height: 45px;
+    align-items: center;
+}
+
+.huifufabu {
+    position: fixed;
+    top: 65%;
+    left: 68%;
+    height: 5%;
+    width: 5%;
+}
+
+.huifuneirong {
+    position: fixed;
+    top: 20%;
+    left: 23%;
+    width: 50%;
+    height: 250px;
+    align-items: center;
+    /*font-size: 10px;*/
+}
